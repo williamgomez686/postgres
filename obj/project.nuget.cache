@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GXG0vpD6juEf9AZqeED7Wl3AK745QwdLvlxKuly10sS3zI911gGOzLMdKxGeW5khXoqahEV4jGQ5RHw338g1Xg==",
+  "dgSpecHash": "VNy9UJF/xDDXAD2fr/bCYttF927EbSP6rwqL0JNZGmXFdJ1pbgWcg4x/AzgEBst4HjJNddUR/TvSTACExgRm2g==",
   "success": true,
   "projectFilePath": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/postgres.csproj",
   "expectedPackageFiles": [
@@ -61,7 +61,8 @@
     "/home/informatica/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/home/informatica/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "/home/informatica/.nuget/packages/newtonsoft.json/11.0.2/newtonsoft.json.11.0.2.nupkg.sha512",
-    "/home/informatica/.nuget/packages/npgsql/4.1.3/npgsql.4.1.3.nupkg.sha512",
+    "/home/informatica/.nuget/packages/npgsql/5.0.10/npgsql.5.0.10.nupkg.sha512",
+    "/home/informatica/.nuget/packages/npgsql.entityframeworkcore.postgresql/5.0.10/npgsql.entityframeworkcore.postgresql.5.0.10.nupkg.sha512",
     "/home/informatica/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.7.0/runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "/home/informatica/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "/home/informatica/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
