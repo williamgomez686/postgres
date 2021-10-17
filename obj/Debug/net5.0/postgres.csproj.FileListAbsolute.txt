@@ -79,7 +79,6 @@
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/obj/Debug/net5.0/ref/postgres.dll
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/obj/Debug/net5.0/postgres.pdb
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/obj/Debug/net5.0/postgres.genruntimeconfig.cache
-/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/app.db
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/Microsoft.AspNetCore.Razor.Language.dll
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/Microsoft.CodeAnalysis.dll
