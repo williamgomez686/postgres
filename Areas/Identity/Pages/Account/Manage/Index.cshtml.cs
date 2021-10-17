@@ -15,9 +15,7 @@ namespace postgres.Areas.Identity.Pages.Account.Manage
         private readonly UserManager<Usuario> _userManager;
         private readonly SignInManager<Usuario> _signInManager;
 
-        public IndexModel(
-            UserManager<Usuario> userManager,
-            SignInManager<Usuario> signInManager)
+        public IndexModel(UserManager<Usuario> userManager, SignInManager<Usuario> signInManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -36,12 +34,16 @@ namespace postgres.Areas.Identity.Pages.Account.Manage
             [Phone]
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
+
+            public string nombre { get; set; }
         }
 
         private async Task LoadAsync(Usuario user)
         {
             var userName = await _userManager.GetUserNameAsync(user);
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
+            var nombre = await _userManager.GetEmailAsync(user);//Prueba para jalar el nombre 
+            //var Nombre = await _userManager.Get
 
             Username = userName;
 
@@ -78,6 +80,7 @@ namespace postgres.Areas.Identity.Pages.Account.Manage
             }
 
             var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
+            //var Nombre = await _userManager.getNombreA
             if (Input.PhoneNumber != phoneNumber)
             {
                 var setPhoneResult = await _userManager.SetPhoneNumberAsync(user, Input.PhoneNumber);
@@ -89,7 +92,7 @@ namespace postgres.Areas.Identity.Pages.Account.Manage
             }
 
             await _signInManager.RefreshSignInAsync(user);
-            StatusMessage = "Your profile has been updated";
+            StatusMessage = "Tu perfil se ha actualizado correctamente";
             return RedirectToPage();
         }
     }
