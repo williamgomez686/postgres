@@ -26,8 +26,15 @@ using postgres.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/Views/_ViewImports.cshtml"
+using postgres.Data;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5c05831fc344a09d2edcd9b7ea64465dcbd15998", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b6dc3146c925316b80c7f236d62ae551dee838d0", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"58d42626e0960cbb8c24858d2ad5f32a7f05a709", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
