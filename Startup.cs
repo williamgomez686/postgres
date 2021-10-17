@@ -35,6 +35,44 @@ namespace postgres
             services.AddDefaultIdentity<Usuario>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
+
+                        services.AddRazorPages();
+            services.AddMvc();///Agregado Manualmente *****************
+
+            services.Configure<IdentityOptions>(options =>
+            {
+                // Password settings.
+                options.Password.RequireDigit = false;//indica que en el password se nesesitan numeros
+                options.Password.RequireLowercase = false;//indica que en el password se nesesitan minusculas
+                options.Password.RequireNonAlphanumeric = false;//indica que en el password se nesesitan caracteres no Alfanumericos como simbolos
+                options.Password.RequireUppercase = false;//indica que en el password se nesesitan Caracteres en Mayusculas
+                options.Password.RequiredLength = 3;//indica la cantidad de caracteres que formaran el Password
+                options.Password.RequiredUniqueChars = 3;//indica Cuantas veces se puede repetir un caracter
+
+                // Lockout settings.
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+                options.Lockout.MaxFailedAccessAttempts = 5;
+                options.Lockout.AllowedForNewUsers = true;
+
+
+                // User settings.
+                options.User.AllowedUserNameCharacters =
+                "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._@+";
+                options.User.RequireUniqueEmail = false;
+            });
+
+            services.ConfigureApplicationCookie(options =>
+            {
+                // Cookie settings
+                options.Cookie.HttpOnly = true;
+                options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
+
+                options.LoginPath = "/Identity/Account/Login";
+                options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+                options.SlidingExpiration = true;
+            });
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
