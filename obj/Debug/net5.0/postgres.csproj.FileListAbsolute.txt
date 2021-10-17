@@ -1,7 +1,6 @@
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/appsettings.Development.json
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/appsettings.json
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/postgres.StaticWebAssets.xml
-/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/app.db
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/postgres
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/postgres.deps.json
 /home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/bin/Debug/net5.0/postgres.runtimeconfig.json
