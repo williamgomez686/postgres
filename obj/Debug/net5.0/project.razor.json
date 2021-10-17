@@ -15619,6 +15619,11 @@
   "RootNamespace": "postgres",
   "Documents": [
     {
+      "FilePath": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/Areas/Identity/Pages/Account/Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/Views/Shared/_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
@@ -15626,6 +15631,16 @@
     {
       "FilePath": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/Areas/Identity/Pages/_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/Areas/Identity/Pages/Account/_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15661,6 +15676,11 @@
     {
       "FilePath": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/Views/_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ],
