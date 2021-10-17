@@ -43,15 +43,15 @@ namespace postgres.Areas.Identity.Pages.Account
 
         public class InputModel
         {
-            [Required (ErrorMessage = "Debe ingresar su correo")]
+            [Required]
             [EmailAddress]
             public string Email { get; set; }
 
-            [Required(ErrorMessage = "la contraseña es nesesaria")]
+            [Required]
             [DataType(DataType.Password)]
             public string Password { get; set; }
 
-            [Display(Name = "Recordarme?")]
+            [Display(Name = "Remember me?")]
             public bool RememberMe { get; set; }
         }
 
