@@ -5713,19 +5713,19 @@
     ]
   },
   "packageFolders": {
-    "/home/informatica/.nuget/packages/": {}
+    "/Users/infwilliam/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/postgres.csproj",
+      "projectUniqueName": "/Users/infwilliam/Projects/Identity/postgres/postgres.csproj",
       "projectName": "postgres",
-      "projectPath": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/postgres.csproj",
-      "packagesPath": "/home/informatica/.nuget/packages/",
-      "outputPath": "/home/informatica/Desktop/proyectocs/ASP/testidentity/postgres/obj/",
+      "projectPath": "/Users/infwilliam/Projects/Identity/postgres/postgres.csproj",
+      "packagesPath": "/Users/infwilliam/.nuget/packages/",
+      "outputPath": "/Users/infwilliam/Projects/Identity/postgres/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/informatica/.nuget/NuGet/NuGet.Config"
+        "/Users/infwilliam/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5800,7 +5800,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }
